@@ -36,7 +36,7 @@ class App extends Component {
             </div>  
 
 
-            <div class="buttonContainer">
+            <div className={styles.buttonContainer}>
                 <ul class="resourceButtons">
                     <li>
                         <button class={styles.button}>

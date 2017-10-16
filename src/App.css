@@ -31,3 +31,8 @@ main {
     composes: buttonBase from "vu/dist/css/composables.css";
     composes: buttonPrimary from "vu/dist/css/composables.css";
 }
+
+
+.buttonContainer {
+    composes: buttonContainer from "vu/dist/css/composables.css";
+}
