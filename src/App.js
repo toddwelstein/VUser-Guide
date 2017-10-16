@@ -59,6 +59,17 @@ class App extends Component {
           <h2>Colors</h2>
           <ul className={styles.colors}>
             <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
 
           <h2>Typography</h2>
