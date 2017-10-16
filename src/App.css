@@ -1,0 +1,33 @@
+main {
+  width: var(--main-width);
+  margin: 25px auto;
+  overflow: hidden;
+  font-family: var(--font-stack-system);
+  font-weight: var(--font-weight-regular);
+}
+
+.docs {
+  background: white;
+  padding: 25px;
+}
+
+.card {
+    composes: cardBase from "vu/dist/css/composables.css";
+}
+
+.cardInner {
+    composes: cardWrap from "vu/dist/css/composables.css";
+}
+
+.cardMetadata {
+    composes: cardMetadata from "vu/dist/css/composables.css";
+}
+
+.cardHeading {
+    composes: cardMetadataHeading from "vu/dist/css/composables.css";
+}
+
+.button {
+    composes: buttonBase from "vu/dist/css/composables.css";
+    composes: buttonPrimary from "vu/dist/css/composables.css";
+}
