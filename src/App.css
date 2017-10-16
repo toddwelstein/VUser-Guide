@@ -11,6 +11,7 @@ main {
   padding: 25px;
 }
 
+/* example component */
 .card {
     composes: cardBase from "vu/dist/css/composables.css";
 }
@@ -36,6 +37,7 @@ main {
     composes: buttonContainer from "vu/dist/css/composables.css";
 }
 
+/* colors */
 .colors {
   display: flex;
   justify-content: space-between;
@@ -92,4 +94,29 @@ main {
 
 .colors li:nth-child(12) {
   background-color: var(--alabaster);
+}
+
+/* typography */
+.type li:nth-child(1) {
+  font-size: var(--font-size-level-one);
+}
+
+.type li:nth-child(2) {
+  font-size: var(--font-size-level-two);
+}
+
+.type li:nth-child(3) {
+  font-size: var(--font-size-level-three);
+}
+
+.type li:nth-child(4) {
+  font-size: var(--font-size-level-four);
+}
+
+.type li:nth-child(5) {
+  font-size: var(--font-size-level-five);
+}
+
+.type li:nth-child(6) {
+  font-size: var(--font-size-level-six);
 }

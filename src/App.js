@@ -73,6 +73,14 @@ class App extends Component {
           </ul>
 
           <h2>Typography</h2>
+          <ul className={styles.type}>
+            <li>Font size level one: 24px</li>
+            <li>Font size level two: 19px</li>
+            <li>Font size level three: 16px</li>
+            <li>Font size level four: 14px</li>
+            <li>Font size level five: 11px</li>
+            <li>Font size level six: 17px</li>
+          </ul>
         </div>
       </main>
     );
